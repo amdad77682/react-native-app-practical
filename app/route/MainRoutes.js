@@ -4,9 +4,14 @@ import {
   createSwitchNavigator
 } from "react-navigation";
 import Home from "../modules/Items_Collection/containers/Home";
+import ItemsHome from "../modules/Items_Collection/containers/ItemsHome";
+
 const HomeStack = createStackNavigator({
   Home: {
     screen: Home
+  },
+  ItemsHome: {
+    screen: ItemsHome
   }
 });
 
